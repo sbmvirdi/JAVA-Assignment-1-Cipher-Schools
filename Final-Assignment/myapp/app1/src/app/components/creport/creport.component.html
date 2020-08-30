@@ -1,0 +1,15 @@
+<div class="container">
+  <h3>Book Search</h3>
+  <hr style="border-top: 1px solid black;">
+  <form>
+    <label>Book Id</label>
+    <input type="text" name="nametxt" [(ngModel)]="var_search" class="form-control" placeholder="Book Id to be searched"
+      required>
+    <br>
+
+    <button class="btn  btn-warning glyphicon glyphicon-search" (click)="generateReport()">
+      Search
+    </button>
+  </form>
+
+</div>
